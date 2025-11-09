@@ -198,9 +198,7 @@ projects {
     justify-content: space-between;
 
 }
-.gallery projects warp {
-	pointer-events: none
-}
+
 
 .container .gallery div.title  {
     height: 50px;
@@ -393,6 +391,7 @@ entry:hover img {
     transition: all 0.5s ease;
     opacity: 0.3;
     z-index: 2;
+	pointer-events: none;
 }
 entry:hover overlay {
     opacity: 0;
