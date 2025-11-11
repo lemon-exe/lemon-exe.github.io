@@ -13,5 +13,5 @@ window.addEventListener('scroll', function() {
 window.addEventListener('scroll', () => {
   const img = document.querySelector('.bk_parallax');
   const scrollTop = window.scrollY;
-  img.style.transform = `translateY(${scrollTop * .3}px)`; // lower factor = slower motion
+  img.style.transform = `translateY(${scrollTop * .2}px)`; // lower factor = slower motion
 });
