@@ -569,7 +569,7 @@ h4.entry {
 }
 
 .slide img {
-    height: 600px;       /* fixed height */
+    height: 80vh;       /* fixed height */
     width: auto;         /* width adapts to preserve aspect ratio */
     object-fit: contain; /* ensures full image visible, no crop */
 }
