@@ -9,7 +9,6 @@ body {
     margin-left: 0px;
     font-style: normal;
     font-weight: 200;
-    min-width: 1200px;
     height: auto;
     z-index: -10;
 }
@@ -572,6 +571,7 @@ h4.entry {
     height: 80vh;       /* fixed height */
     width: auto;         /* width adapts to preserve aspect ratio */
     object-fit: contain; /* ensures full image visible, no crop */
+    max-width: 90%;
 }
 
 .slide p {
@@ -854,8 +854,8 @@ projects .style1 .subtitle_dark {
 
 
 .topbar {
-    
     font-size: 18px;
+    max-width: none;
 
 }
 #topbar {
