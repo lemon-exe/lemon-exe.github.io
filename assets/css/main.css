@@ -78,6 +78,10 @@ nav {
     background-image: url("../images/TB%20(UT26) 2.JPG");
     background-position: center top;
 }
+.hero.course {
+    background-image: url("../images/TB%20(course).png");
+    background-position: center top;
+}
 .hero.drone {
     background-image: url("../images/TB%20(drone).png");
     background-position: center top;
@@ -641,7 +645,7 @@ h4.entry {
 .slide p {
     margin-top: 8px;
     font-size: 16px;
-    max-width: 90%;
+    max-width: 70%;
 }
 
 button.prev,
