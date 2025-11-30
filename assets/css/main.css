@@ -364,6 +364,7 @@ projects {
     align-items: flex-start;
     justify-content: flex-end;
     padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 .thumbnail {
@@ -717,6 +718,8 @@ a {
 .technicals .tech .subtitle {
     display: block;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
     color: #FFE7C0;
 }
 
