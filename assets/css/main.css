@@ -225,12 +225,13 @@ section {
     display: flex;
 }
 .technicals {
-    /* [disabled]height: 600px; */
+    height: auto;
     background-color: #3A3A3A;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-content: center;
+    justify-content: flex-start;
+    padding-bottom: 120px;
 }
 .technicals .technical {
     display: flex;
@@ -344,7 +345,7 @@ about_text {
 }
 .gallery {
     clear: both;
-    background-color: #D6D6D6;
+    background-color: #F5F5F5;
     margin-top: -5px;
     margin-bottom: 0px;
     flex-direction: column;
@@ -720,7 +721,7 @@ a {
 .technicals .tech .subtitle {
     display: block;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 15px;
     color: #FFE7C0;
 }
@@ -955,6 +956,7 @@ nav ul li {
     font-size: 24px;
     min-width: 0px;
     opacity: 1;
+    padding-bottom: 0px;
 }
 .footer-content .subtitle {
     font-size: 12px;
