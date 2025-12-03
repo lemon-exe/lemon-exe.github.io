@@ -725,6 +725,10 @@ a {
     margin-bottom: 15px;
     color: #FFE7C0;
 }
+iframe {
+    overflow-x: auto;
+}
+
 
 
 
@@ -986,7 +990,8 @@ entry:hover p.norm_text {
 }
 projects entry .subtitle_dark {
     margin: 0;
-	pointer-events: none;
+    pointer-events: none;
+    text-align: center;
 }
 
 
